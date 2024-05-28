@@ -1,11 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {PaginaInicialComponent} from "./page/pagina-inicial/pagina-inicial.component";
+import {VideoListComponent} from "./components/video-list/video-list.component";
 
 const routes: Routes = [
   {
     path: 'pagina-inicial',
     component: PaginaInicialComponent
+  },
+  {
+    path: 'video-list',
+    component: VideoListComponent
   }
 ];
 
