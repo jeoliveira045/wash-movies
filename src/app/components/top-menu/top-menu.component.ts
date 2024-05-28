@@ -10,7 +10,7 @@ import {NgFor} from "@angular/common";
 })
 export class TopMenuComponent {
 
-    @Input() topMenuItems?: Array<any>
+  @Input() topMenuItems?: Array<any>
 
   constructor() {
 

@@ -5,10 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { VideoListComponent } from './components/video-list/video-list.component';
 import { PageTitleComponent } from './components/page-title/page-title.component';
+import { DetalheComponent } from './page/detalhe/detalhe.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,

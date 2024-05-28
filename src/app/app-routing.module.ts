@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {PaginaInicialComponent} from "./page/pagina-inicial/pagina-inicial.component";
 import {VideoListComponent} from "./components/video-list/video-list.component";
+import {DetalheComponent} from "./page/detalhe/detalhe.component";
 
 const routes: Routes = [
   {
@@ -9,8 +10,8 @@ const routes: Routes = [
     component: PaginaInicialComponent
   },
   {
-    path: 'video-list',
-    component: VideoListComponent
+    path:'detalhes/:id',
+    component: DetalheComponent
   }
 ];
 
