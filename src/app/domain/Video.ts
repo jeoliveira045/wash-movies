@@ -4,4 +4,5 @@ export class Video {
   genero?: string
   subgenero?: string
   imagem?: string
+  descricao?: string
 }

@@ -2,7 +2,7 @@
   <ul>
     <li *ngFor="let item of videoList">
       <div class="videoItemContainer">
-        <img src="{{item.imagem}}" style="width: 20rem; border-radius: 10px">
+        <img src="{{item.imagem}}" routerLink="/detalhes/{{item.id}}" style="width: 20rem; border-radius: 10px">
         <p class="videoItemContainerTitle">{{item.nome}}</p>
         <div class="videoItemContainerDetail">
           <ul>
