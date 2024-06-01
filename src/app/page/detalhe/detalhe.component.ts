@@ -4,6 +4,7 @@ import {Video} from "../../domain/Video";
 import {VideoObjectList} from "../../mocks/video.object-list";
 import {PageTitleComponent} from "../../components/page-title/page-title.component";
 import {TopMenuComponent} from "../../components/top-menu/top-menu.component";
+import {RatingComponent} from "../../components/rating/rating.component";
 
 @Component({
   selector: 'app-detalhe',
@@ -12,7 +13,8 @@ import {TopMenuComponent} from "../../components/top-menu/top-menu.component";
   standalone: true,
   imports: [
     PageTitleComponent,
-    TopMenuComponent
+    TopMenuComponent,
+    RatingComponent
   ]
 })
 export class DetalheComponent implements OnInit{

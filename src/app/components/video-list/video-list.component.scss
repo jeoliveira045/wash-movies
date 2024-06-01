@@ -14,6 +14,7 @@ ul{
       background-color: black;
       color: white;
       cursor: pointer;
+      height: 35rem;
       &:hover{
         color:black;
         background-color: #d9d917;
@@ -21,6 +22,7 @@ ul{
       }
       .videoItemContainerDetail{
         display: flex;
+        justify-content: center;
       }
     }
   }

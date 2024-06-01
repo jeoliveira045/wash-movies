@@ -4,7 +4,9 @@ export function VideoObjectList(){
   let video1: Video = {
     id: 1,
     nome: "Chamas da Vingança",
+    rating: 3,
     genero: "Drama",
+    trailerMovieLink: "https://www.youtube.com/watch?v=ALKCTuH79iE",
     subgenero: "Ação",
     imagem: "assets/chamas-da-vingança.png",
     descricao: "Um ex-agente da CIA reluta, mas acaba topando trabalhar como guarda-costas de uma menina na Cidade do México e faz de tudo para salvá-la quando ela é sequestrada. Assista o quanto quiser. O vencedor do Oscar Denzel Washington e Dakota Fanning estrelam este suspense de ação com Christopher Walken."
@@ -12,6 +14,8 @@ export function VideoObjectList(){
   let video2: Video = {
     id: 2,
     nome: "Goosebumps",
+    rating: 2,
+    trailerMovieLink:"https://www.youtube.com/watch?v=6cMRiXVNCNM",
     genero: "Infantil",
     subgenero: "Terror",
     imagem: "assets/goosebumps.png",
@@ -20,6 +24,8 @@ export function VideoObjectList(){
   let video3: Video = {
     id: 3,
     nome: "O Livro de Eli",
+    rating: 4,
+    trailerMovieLink: "https://www.youtube.com/embed/zSMHmtaoXtI",
     genero: "Drama",
     subgenero: "Ação",
     imagem: "assets/o-livro-de-eli.png",
@@ -28,7 +34,9 @@ export function VideoObjectList(){
   let video4: Video = {
     id: 4,
     nome: "Rick and Morty",
+    rating: 3,
     genero: "Comédia",
+    trailerMovieLink: "https://www.youtube.com/watch?v=Dsh6bJI20OE",
     subgenero: "Aventura",
     imagem: "assets/rick-and-morty.png",
     descricao: "Acompanhe malucas viagens no tempo-espaço e por universos paralelos com Rick, um cientista com problemas com a bebida, e seu neto Morty, um adolescente não tão brilhante quanto o avô."
